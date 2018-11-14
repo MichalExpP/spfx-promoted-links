@@ -1,26 +1,18 @@
-## spfx-promoted-links
+# spfx-promoted-links
 
-This is where you include your WebPart documentation.
+This web part will display all links from Promoted Links lis, add images and allow to change tile size. Updated to SharePoint Framework 1.6
 
-### Building the code
+## Inspiration
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+Inspired by https://github.com/Constellation-Solutions/spfx-promoted-links
 
-This package produces the following:
+## Create Images with Office Fabric Icons
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+This is a great tool created by Josh McCarty that will allow to create an image with the icon: https://codepen.io/joshmcrty/pen/GOBWeV
+Use https://developer.microsoft.com/en-us/fabric#/styles/icons to get the icon name
 
-### Build options
+## Images
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+![](https://github.com/MichalExpP/spfx-promoted-links/blob/master/docs/images/Links1.png)
+
+![](https://github.com/MichalExpP/spfx-promoted-links/blob/master/docs/images/Links2.png)
