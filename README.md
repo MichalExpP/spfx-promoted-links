@@ -13,6 +13,14 @@ Use https://developer.microsoft.com/en-us/fabric#/styles/icons to get the icon n
 
 ## Images
 
+### Display mode
+
 ![](https://github.com/MichalExpP/spfx-promoted-links/blob/master/docs/images/Links1.png)
 
+### Edit mode
+
 ![](https://github.com/MichalExpP/spfx-promoted-links/blob/master/docs/images/Links2.png)
+
+### Tiles with Office Fabric icons
+
+![](https://github.com/MichalExpP/spfx-promoted-links/blob/master/docs/images/Links3.png)
