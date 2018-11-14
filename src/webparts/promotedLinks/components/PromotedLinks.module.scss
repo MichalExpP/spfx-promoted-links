@@ -1,0 +1,1019 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.promotedLinks50x100 {
+
+  $box-height: 50px;
+  $box-width: 100px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+    margin-top: -25px;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 16px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 3px;
+  }
+  .pLinkItemDesc {
+    display:none;
+  }
+}
+
+.promotedLinks75x75 {
+
+  $box-height: 75px;
+  $box-width: 75px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 14px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 2px;
+  }
+  .pLinkItemDesc {
+    display:none;
+  }
+}
+
+.promotedLinks75x150 {
+
+  $box-height: 75px;
+  $box-width: 150px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+    margin-top: -37px;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 18px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 3px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks100x100 {
+
+  $box-height: 100px;
+  $box-width: 100px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 16px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 2px;
+  }
+  .pLinkItemDesc {
+    font-size: 12px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks100x200 {
+
+  $box-height: 100px;
+  $box-width: 200px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+    margin-top: -50px;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 21px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 5px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks113x113 {
+
+  $box-height: 113px;
+  $box-width: 113px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 17px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 3px;
+  }
+  .pLinkItemDesc {
+    font-size: 12px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks125x125 {
+
+  $box-height: 125px;
+  $box-width: 125px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 17px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 3px;
+  }
+  .pLinkItemDesc {
+    font-size: 12px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks131x131 {
+
+  $box-height: 131px;
+  $box-width: 131px;;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-width;
+    width: $box-height;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 18px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 4px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks142x142 {
+
+  $box-height: 142px;
+  $box-width: 142px;;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-width;
+    width: $box-height;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 18px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 4px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks150x150 {
+
+  $box-height: 150px;
+  $box-width: 150px;;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-width;
+    width: $box-height;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 18px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 4px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks181x181 {
+
+  $box-height: 181px;
+  $box-width: 181px;;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-width;
+    width: $box-height;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 18px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 4px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks200x200 {
+
+  $box-height: 200px;
+  $box-width: 200px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 21px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 5px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
+
+.promotedLinks293x160 {
+
+  $box-height: 160px;
+  $box-width: 293px;
+  $width: 100%;
+  $height: 100%;
+
+  .container {
+    max-width: $width;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .pLinkItemWebpartTitle{
+    font-size: 24px;
+    color: #333333;
+  }
+  .pLinkItemWrapper {
+    background-color: "[theme: themePrimary, default: #0078d7]";
+    float: left;
+    display: block;
+    height: $box-height;
+    width: $box-width;
+    position: relative;
+    margin: 0px 8px 8px 0px;
+
+    overflow: hidden;
+  }
+  .pLinkItemImage > img {
+    width: $width;
+    height: $height;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .pLinkItemWrapper img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .pLinkItemWrapper:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .pLinkContent{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6));
+    -ms-flex-align: start;
+    align-items: flex-start;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .pLinkItemTitle {
+    font-size: 21px;
+    color: #ffffff;
+    width: $width;
+  }
+  .pLinkItemDivider {
+    padding: 5px;
+  }
+  .pLinkItemDesc {
+    font-size: 14px;
+    color: #eaeaea;
+    width: $width;
+  }
+}
